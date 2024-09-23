@@ -1,0 +1,2170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <meta name="viewport" content="width=device-width">    
+    <link rel="canonical" href="https://qiskitfallfest23-unipa.github.io//">
+
+    <!-- Primary Meta Tags -->
+    <title>Qiskit Fall Fest 2023 @ Palermo, Italy</title>
+    <meta name="title" content="Qiskit Fall Fest 2023 @ Palermo, Italy" />
+    <meta name="description" content="Let's discover quantum computing!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://qiskitfallfest23-unipa.github.io/" />
+    <meta property="og:title" content="Qiskit Fall Fest 2023 @ Palermo, Italy" />
+    <meta property="og:description" content="Let's discover quantum computing!" />
+    <meta property="og:image" content="/assets/img/image_meta.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://qiskitfallfest23-unipa.github.io/" />
+    <meta property="twitter:title" content="Qiskit Fall Fest 2023 @ Palermo, Italy" />
+    <meta property="twitter:description" content="Let's discover quantum computing!" />
+    <meta property="twitter:image" content="/assets/img/image_meta.jpg" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    
+    <link rel="stylesheet" href=" /style.css?v=202405132245">
+
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href=" /assets/css/logotype.css">
+    <link href='https://fonts.googleapis.com/css?family=Salsa' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!--Custom Fonts QFF23-->
+    <link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=Merriweather&display=swap' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=Tektur&display=swap' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- iubenda autoblocking cookies-->
+    <!-- BUG: the banner appears each time the page is reloaded. --> 
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "floatingPreferencesButtonDisplay": "bottom-left", "lang": "en-GB", "perPurposeConsent": true, "siteId": 3308330, "whitelabel": false, "cookiePolicyId": 60725282, "banner": { "acceptButtonDisplay": true, "backgroundOverlay": true, "closeButtonRejects": true, "customizeButtonDisplay": true, "explicitWithdrawal": true, "listPurposes": true, "position": "float-bottom-center" } };
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3308330.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <!--END iubenda autoblocking cookies-->
+
+</head>
+
+<body id="home" class="index" data-spy="scroll" data-target="#navbarHome">
+
+  <!-- Navigation -->
+<style>
+    .dropdown-menu.dropdown-menu-custom {
+        background: none;
+        border: 1px solid white;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .dropdown-menu.dropdown-menu-custom.dropdown-menu-custom-shrink {
+        background-color: #222;
+    }
+
+
+    .navbar {
+        border-radius: 0px;
+    }
+</style>
+
+<!-- #FIXME: dropdown does not close itself when mouseleave-->
+<!-- # FIXME: compare this snippet from _includes/navigation.html and try to merge them in a single file using some if/else statement-->
+
+<!-- Navigation -->
+    
+    <nav id="navbarHome" class="navbar navbar-default navbar-fixed-top theme-1">
+    
+
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand navbar-brand-small page-scroll"
+                    href="#home">
+                    <!--<span class="white">{"large"=>"Qiskit Fall Fest 2023", "small"=>"QFF23"} @ </span><span class="green">Pa</span><span
+                    class="white">ler</span><span class="red">mo</span>-->
+                    <span class="logotype">
+                        <span class="ibm">QFF23</span><span class="palermo italy"> @ <span
+                                class="green">Pa</span><span class="white">ler</span><span class="red">mo</span></span>
+                    </span>
+                </a>
+                <a class="navbar-brand navbar-brand-large page-scroll"
+                    href="#home">
+                    <!--<span class="white">{"large"=>"Qiskit Fall Fest 2023", "small"=>"QFF23"} @ </span><span class="green">Pa</span><span
+                    class="white">ler</span><span class="red">mo</span>-->
+                    <span class="logotype">
+                        <span class="ibm">Qiskit Fall Fest 2023</span><span class="palermo italy"> @ <span
+                                class="green">Pa</span><span class="white">ler</span><span class="red">mo</span></span>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <li><a href="#home">Home</a></li>-->
+                    <!-- <li><a href="/">Home</a></li>-->
+                    <!--<li><a class="page-scroll" href="/about.html">About</a></li>-->
+
+                    
+                    <!--<a href="#about" >About</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="#about">About</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="#event" >The event</a>-->
+
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">The event <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-custom " role="menu">
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#partners">Partners</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#speakers">Speakers</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#agenda">Agenda</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#organizers">Organizers</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#venue">Venue</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#poster">Poster</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#gallery">Gallery</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#collaborators">Collaborators</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#sponsors">Sponsors</a>
+                            </li>
+                            
+                            <li>
+                                <a class="page-scroll"
+                                    href="#press">Press</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+
+                    
+                    <!--<a href="/blog/" >News</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="blog/">News</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="/faq/" >FAQ</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="faq/">FAQ</a>
+                    </li>
+                    
+
+                    
+                    <!--<a href="/registration/" >Register!</a>-->
+
+                    
+                    <li>
+                        <a class="page-scroll"
+                            href="registration/">Register!</a>
+                    </li>
+                    
+
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+  <!-- Header -->
+
+<style>
+    .full-jumbo {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    header .intro-text {
+        /*al centro dello schermo*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .micio {
+        width: 100%;
+        /*max-width: 480px;*/
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    @media (max-width: 486px) {
+        .micio {
+            width: 70%; /*?*/
+            max-width: 250px;
+        }
+    }
+
+    @media (min-width: 400px) and (max-width: 768px) {
+        .micio {
+            width: 50%;
+            max-width: 300px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .micio {
+            width: 70%;/*?*/
+            max-width: 300px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .micio {
+            width: 50%;
+            max-width: 250px;
+        }
+    }
+
+    @media (min-width: 940px) {
+        .micio {
+            width: 50%;
+            max-width: 370px;
+        }
+    }
+</style>
+
+
+<header class="full-jumbo theme-1">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in logotype">The Quantum Era is arriving.</div>
+            <div class="intro-heading logotype">Are you getting ready?</div>
+            <a href="#about" class="logotype page-scroll btn btn-xl">Tell me more!</a>
+        </div>
+        <!-- I decided to add this file instead of edit the layout -->
+
+
+<style>
+  .marquee {
+    width: 100%;
+    left: 0px;
+    background-color: #0000003d;
+    /* color: black;*/
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    /*
+     font-size: 72px;
+     height: 190px;
+     line-height: 190px;
+     white-space: nowrap;
+     */
+  }
+
+  .marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    /*
+     animation called marquee which runs for 15 seconds and loops infinitely.
+     This animation sets the element to translate from 0 to -100% along the x-axis.
+     */
+    animation: marquee 20s linear infinite;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Roboto Slab, sans-serif;
+    /* Change font */
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+</style>
+<div class="marquee">
+  <p>24, 27, 29 November • Registration closed • 24, 27, 29 November • Registration closed • 24, 27, 29 November • Registration closed • 24, 27, 29 November • Registration closed • 24, 27, 29 November • Registration closed • 24, 27, 29 November • Registration closed • </p>
+</div>
+
+<script>
+  // the script must be put after the marquee div and the style tag
+  // Update the animation duration based on the length of the text in the marquee div
+  var marqueeP = document.querySelector('.marquee > p');
+  var textLength = marqueeP.textContent.length;
+  var animationDuration = textLength / 6;
+  marqueeP.style.animationDuration = `${animationDuration}s`;
+</script>
+
+        <img src="/assets/img/micio/micio.webp" class="micio" alt="Gianni's quantum micio">
+    </div>
+</header>
+
+<main>
+    <!-- About Section -->
+<style>
+    /* Timeline image */
+    .timeline-image {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+</style>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                
+
+                
+<p><b> Welcome to the Qiskit Fall Fest 2023 @ Palermo!</b></p>
+
+<p>We are thrilled to invite you to the most exciting global event about the quantum computing promoted by <a href="https://www.ibm.com/quantum" target="_blank">IBM Quantum</a> and the 
+<a href="https://qiskit.org" target="_blank">Qiskit community</a>: the <a href="https://qiskit.org/events/fall-fest" target="_blank">Qiskit Fall Fest</a>!</p>
+
+<blockquote cite="https://qiskit.org/events/fall-fest/">
+  The Qiskit Fall Fest is a collection of quantum computing events on college campuses around the world. Every Fall Fest event is organized and run by the students on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus. The events vary from technical hackathons to beginner-friendly challenges, all with the goal of helping to grow the local community's skill set. 
+  <footer><a href="https://qiskit.org/events/fall-fest/" target="_blank">qiskit.org</a></footer>
+</blockquote>
+
+<p>This year a Qiskit Fall Fest event will be held also in Palermo and it will be hosted by the <i><a href="https://www.unipa.it" target="_blank">Università degli Studi di Palermo</a></i>, Italy</p>
+
+<p>The Qiskit Fall Fest is a celebration of quantum technology, research, and collaboration, bringing together quantum enthusiasts, researchers, students, and professionals from around the world. Whether you’re a quantum expert or just starting your journey into the quantum realm, this event is designed for you.</p>
+
+<p>We are looking forward to seeing you at the event!</p>
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/readmore/">
+                        <img src="assets/img/about/info.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>What is Qiskit?</h4>
+                    <p class="text-muted">An open-source python framework for quantum programming</p>
+                    <p><a href="/readmore/" class="btn-about">Learn more!</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/#agenda">
+                        <img src="assets/img/about/agenda.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>Agenda</h4>
+                    <p class="text-muted">Check out the agenda for the event</p>
+                    <p><a href="/#agenda" class="btn-about">View the agenda</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/#venue">
+                        <img src="assets/img/about/venue.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>Venue</h4>
+                    <p class="text-muted">Learn more about our event location in detail</p>
+                    <p><a href="/#venue" class="btn-about">View the location</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- height: 250px is a dirty fix. The issue is the grid is not aligned correctly
+                    in sm size. In fact the second row goes directly to the right part of the grid
+                    because the first element of the first row is bigger than the second element of the first row.
+                    This is caused by the fact that we're using Bootstrap 3 which is not using flexbox.
+                    To correctly fix this, we should upgrade to Bootstrap version >= 4.0.0
+                -->
+                <div class="team-member" style="height: 250px">
+                    <a href="/faq/">
+                        <img src="assets/img/about/faqs.png" class="img-responsive img-circle timeline-image"
+                            style="max-width: 100px;" alt="">
+                    </a>
+                    <h4>FAQ</h4>
+                    <p class="text-muted">Have some question? Maybe we have already answer it!</p>
+                    <p><a href="/faq/" class="btn-about">FAQ</a></p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- registration -->
+        <div style="text-align: center; padding: 10px 25px;"><a class="btn btn-xl" href="/registration/">Register for the event here to participate!</a></div>
+
+
+    </div>
+</section>
+
+    <style>
+    .box {
+        height: 100px;
+        max-height: 100px;
+        position: relative;
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .box.box2 img {
+        object-fit: contain;
+    }
+
+    img.logo {
+        max-height: 100px;
+    }
+</style>
+
+<!-- Partners section -->
+<section id="partners" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Partners</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box box2">
+                        <a href="https://qiskit.org/" target="_blank">
+                            <img src="assets/img/logos/qiskit_logotype.svg" class="img-responsive img-centered logo"
+                                alt="qiskit_logotype.svg">
+                        </a>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <p style="text-align: center;"><b>Qiskit community</b></p>
+                    </div>
+                    <div style="text-align: justify; padding-top: 20px;">
+                        <p>Qiskit is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms. It provides tools for creating and manipulating quantum programs and running them on prototype quantum devices on IBM Quantum Experience or on simulators on a local computer. Qiskit also enables the user to optimize quantum circuits for a particular device, perform quantum computing experiments on real devices with little effort, and easily access to IBM Quantum hardware through the cloud.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box box2">
+                        <a href="https://www.ibm.com/quantum" target="_blank">
+                            <img src="assets/img/logos/ibm_logo.png" class="img-responsive img-centered logo"
+                                alt="ibm_logo.png">
+                        </a>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <p style="text-align: center;"><b>IBM Quantum</b></p>
+                    </div>
+                    <div style="text-align: justify; padding-top: 20px;">
+                        <p>IBM Quantum is an industry-first initiative to build universal quantum computers for business, engineering and science. This effort includes advancing the entire quantum computing technology stack and exploring applications to make quantum broadly usable and accessible. With a worldwide network of Fortune 500 companies, academic institutions, researchers, educators, and enthusiasts, IBM Quantum is committed to driving innovation for clients in the IBM Q Network and the Qiskit Community.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box box2">
+                        <a href="http://www.unipa.it" target="_blank">
+                            <img src="assets/img/logos/unipa_logotipo-orizzontale-a-colori.png" class="img-responsive img-centered logo"
+                                alt="unipa_logotipo-orizzontale-a-colori.png">
+                        </a>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <p style="text-align: center;"><b>Università degli Studi di Palermo (UNIPA)</b></p>
+                    </div>
+                    <div style="text-align: justify; padding-top: 20px;">
+                        <p>The University, with its over 40'000 members, is one of the 11 Italian biggest universities. It is a renowned institution with a rich history dating back to 1806. Originally established by Ferdinando III of Borbone, it gained the authority to confer degrees in theology, medicine, law, and philosophy. Over the years, the university has gone through significant transformations, becoming a hub for secular education and a breeding ground for notable scientific figures. Its enduring resilience, even after World War II, has allowed it to adapt to evolving educational needs and maintain its role in shaping the intellectual and political landscape of both Sicily and Italy.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box box2">
+                        <a href="https://www.unipa.it/dipartimenti/difc" target="_blank">
+                            <img src="assets/img/logos/unipa_difc_650p.png" class="img-responsive img-centered logo"
+                                alt="unipa_difc_650p.png">
+                        </a>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <p style="text-align: center;"><b>Dipartimento di Fisica e Chimica "Emilio Segrè" (DiFC) - <abbr title="Università degli Studi di Palermo">UNIPA</abbr></b></p>
+                    </div>
+                    <div style="text-align: justify; padding-top: 20px;">
+                        <p>The Department boasts a prestigious, long-standing scientific legacy. Giuseppe Piazzi (1746-1826), first Director of the Observatory, discovered <i>Ceres</i>, the first asteroid discovered (now considered a dwarf planet). The physicist Emilio Segrè (1905-1989), after whom the DiFC is named, discovered the chemical element #41, the <i>Tecneto</i>, the only element of the periodic table discovered in Italy, in Via Archirafi; furthermore, in 1959 he was awarded the Nobel Prize in Physics for his discoveries on the antiproton. The chemist Stanislao Cannizzaro (1826-910) was an illustrious scientist internationally renowned for having proposed "Cannizzaro's rule".</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Posts section -->
+<style>
+  .truncate-text {
+    /*truncating long words with a hyphen and continuing them on a new line */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+</style>
+
+
+<section id="posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">News</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+      <div class="row">
+        
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+            <a class="post-link" href="/cfu-unipa/"><b>Credits for UNIPA students</b></a><br>
+            <span class="post-date">Nov 21, 2023</span>
+          
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+          <p></p>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+            <a class="post-link" href="/blog/qff23/2023/10/28/Why-to-partecipate.html"><b>Why to partecipate</b></a><br>
+            <span class="post-date">Oct 28, 2023</span>
+          
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            Dear reader, It all started with a simple idea and a shared passion: bringing the innovation and magic of quantum computing closer to everyone. We are a group of enthusiastic students who have come together to create a unique experience for scienc...
+          </div>
+          <p>
+          <a href="/blog/qff23/2023/10/28/Why-to-partecipate.html">(more...)</a>
+          </p>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+            <a class="post-link" href="/first-steps-with-qiskit/"><b>First steps with Qiskit</b></a><br>
+            <span class="post-date">Oct 11, 2023</span>
+          
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+          <p></p>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+            <a class="post-link" href="/blog/palermo/2023/10/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html"><b>Announcing the Qiskit Fall Fest 2023 in Palermo</b></a><br>
+            <span class="post-date">Oct 10, 2023</span>
+          
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            We are thrilled to invite you to the Qiskit Fall Fest 2023 partner event in Palermo, Italy!The Qiskit Fall Fest is a collection of quantum computing events on college campuses around the world.Every Fall Fest event is organized and run by the stud...
+          </div>
+          <p>
+          <a href="/blog/palermo/2023/10/10/Announcing-the-Qiskit-Fall-Fest-2023-in-Palermo.html">(more...)</a>
+          </p>
+        </div>
+        
+      </div>
+      <div class="col-lg-12 text-center">
+        <a href=" /blog/" class="btn btn-xl" style="
+        margin-top: 15px; margin-bottom: 15px;">More News</a>
+        <p class="rss-subscribe">Subscribe via <a href=" /feed.xml">RSS</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Speakers -->
+<section id="speakers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Speakers</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member" id="gioacchino-massimo-palma">
+                    <img src="assets/img/speakers/palma.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Gioacchino Massimo Palma</h4>
+                    <p class="text-muted">Full professor of Matter Physics @ Università degli Studi di Palermo<br>• <abbr title="Società Italiana di Scienze e Tecnologie Quantistiche">SISTEQ</abbr> president</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unipa.it/persone/docenti/p/massimo.palma/" target="_blank">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://it.linkedin.com/in/massimo-palma-5746ba20" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/Gmassimo-Palma" target="_blank">
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member" id="mauro-paternostro">
+                    <img src="assets/img/speakers/paternostro_3.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Mauro Paternostro</h4>
+                    <p class="text-muted">Full professor of Matter Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unipa.it/persone/docenti/p/mauro.paternostro" target="_blank">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/mauro-paternostro-48016533" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/M-Paternostro" target="_blank">
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member" id="brian-ingmanson">
+                    <img src="assets/img/speakers/brian_i.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Brian Ingmanson</h4>
+                    <p class="text-muted">North America Lead for Workforce and Community @ IBM Quantum</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/bingmanson" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member" id="luca-innocenti">
+                    <img src="assets/img/speakers/innocenti.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Luca Innocenti</h4>
+                    <p class="text-muted">Researcher in Matter Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unipa.it/persone/docenti/i/luca.innocenti" target="_blank">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://it.linkedin.com/in/luca-innocenti-b5a587119" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/Luca-Innocenti" target="_blank">
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="team-member" id="simone-gasperini">
+                    <img src="assets/img/speakers/gasperini.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Simone Gasperini</h4>
+                    <p class="text-muted">PhD student in Data Science and Computation @ Università di Bologna & <abbr title="Istituto Nazionale di Fisica Nucleare">INFN</abbr><br>• Qiskit Advocate</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unibo.it/sitoweb/simone.gasperini4" target="_blank">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/simone-gasperini-15a132183" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/SimoneGasperini" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted"></p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Agenda section -->
+
+<style>
+    #agenda-table th {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #agenda-table td {
+        text-align: left;
+    }
+
+    #agenda-table caption {
+        caption-side: bottom;
+    }
+
+    #agenda-table th,
+    #agenda-table td {
+        border: 2px solid #2d7dc7;
+    }
+
+    #agenda-table .event-title {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #agenda-table .day-title {
+        font-size: large;
+        background-color: #e8f4f8;
+        color: #333;
+    }
+
+    table#agenda-table tr:not(:first-child) td {
+        /* Apply styles for td elements in tr elements from the second to the one before the last */
+        border-top: none !important;
+    }
+
+    table#agenda-table tr:not(:last-child) td {
+        /* Apply styles for td elements in tr elements from the second to the one before the last */
+        border-bottom: none !important;
+    }
+
+    #agenda-table caption {
+        caption-side: bottom;
+    }
+
+    .table-responsive>.table tr>th,
+    .table-responsive>.table tr>td {
+        white-space: unset !important;
+    }
+</style>
+
+<section id="agenda">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Agenda</h2>
+                <h3 class="section-subheading text-muted"></h3>
+                
+                <div class="table-responsive">
+                    <table id="agenda-table" class="table table-bordered">
+                        <caption>
+                            CET (UTC+1)
+                        </caption>
+                        <thead>
+                            <tr>
+                                
+                                <th class="col-sm-4 day-title">Fri, Nov 24, 2023<br>Intro to quantum computing and applications</th> <!-- FIXME capitalize filter do not work -->
+                                
+                                <th class="col-sm-4 day-title">Mon, Nov 27, 2023<br>Hands-on session</th> <!-- FIXME capitalize filter do not work -->
+                                
+                                <th class="col-sm-4 day-title">Wed, Nov 29, 2023<br>Challenge and advanced topics</th> <!-- FIXME capitalize filter do not work -->
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td class="col-sm-4">
+                                    14:30-15:00<br />
+                                    <span class="event-title">Accreditation</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    14:30-15:00<br />
+                                    <span class="event-title">Accreditation</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    14:45-15:00<br />
+                                    <span class="event-title">Accreditation</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td class="col-sm-4">
+                                    15:00-15:15<br />
+                                    <span class="event-title">Opening ceremony</span><br /><i>
+                                        <a href="/#organizers" target="_blank">Organizers</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    15:00-15:15<br />
+                                    <span class="event-title">Greetings from IBM Quantum</span><br /><i>
+                                        <a href="/#brian-ingmanson" target="_blank">Brian Ingmanson</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    15:00-16:00<br />
+                                    <span class="event-title">Qiskit labs review</span><br /><i>
+                                        <a href="/#organizers" target="_blank">Organizers</a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td class="col-sm-4">
+                                    15:15-16:45<br />
+                                    <span class="event-title">Fundamentals of quantum computation theory: circuit model and quantum gates</span><br /><i>
+                                        <a href="/#gioacchino-massimo-palma" target="_blank">Gioacchino Massimo Palma</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    15:15-16:25<br />
+                                    <span class="event-title">Qiskit hands-on session I: first steps with Qiskit and circuits</span><br /><i>
+                                        <a href="/#organizers" target="_blank">Organizers</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    16:00-16:30<br />
+                                    <span class="event-title">About the Grover's algorithm</span><br /><i>
+                                        <a href="/#luca-innocenti" target="_blank">Luca Innocenti</a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td class="col-sm-4">
+                                    16:45-17:00<br />
+                                    <span class="event-title">break</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    16:25-16:40<br />
+                                    <span class="event-title">break</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    16:30-16:35<br />
+                                    <span class="event-title">break</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td class="col-sm-4">
+                                    17:00-18:00<br />
+                                    <span class="event-title">Quantum algorithms and applications outlines</span><br /><i>
+                                        <a href="/#mauro-paternostro" target="_blank">Mauro Paternostro</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    16:40-17:45<br />
+                                    <span class="event-title">Qiskit hands-on session II: implementation of quantum algorithms</span><br /><i>
+                                        <a href="/#organizers" target="_blank">Organizers</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    16:35-17:05<br />
+                                    <span class="event-title">Qiskit-symb: a Qiskit Ecosystem package for symbolic quantum computation</span><br /><i>
+                                        <a href="/#simone-gasperini" target="_blank">Simone Gasperini</a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td></td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    17:45-18:00<br />
+                                    <span class="event-title">Are you ready for a challenge?</span><br /><i>
+                                        <a href="/#mauro-paternostro" target="_blank">Mauro Paternostro</a>
+                                    </i>
+                                </td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    17:05-17:10<br />
+                                    <span class="event-title">break</span><br /><i>
+                                        <a href="/#" target="_blank"></a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td></td>
+                                
+                                
+                                
+                                <td></td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    17:10-17:50<br />
+                                    <span class="event-title">Playing games, quantumly</span><br /><i>
+                                        <a href="/#mauro-paternostro" target="_blank">Mauro Paternostro</a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                
+                                <td></td>
+                                
+                                
+                                
+                                <td></td>
+                                
+                                
+                                
+                                <td class="col-sm-4">
+                                    17:50-18:00<br />
+                                    <span class="event-title">Closing ceremony</span><br /><i>
+                                        <a href="/#organizers" target="_blank">Organizers</a>
+                                    </i>
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Organizers Section -->
+<section id="organizers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Organizers</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+         <!-- Set the number of organizers to process each step -->
+         <!-- Get the total number of organizers -->
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="alberto-miserendino">
+                    <img src="assets/img/organizers/alberto.png" class="img-responsive img-circle" alt="">
+                    <h4>Alberto Miserendino</h4>
+                    <p class="text-muted">(Lead Organizer)<br>Quantum cloud engineer @ Nexum, Rome<br>M.Sc. student in Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/albertomiserendino/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="alessandro-catalano">
+                    <img src="assets/img/organizers/alessandro.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Alessandro Catalano</h4>
+                    <p class="text-muted">M.Sc. student in Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/alessandro-catalano-01297828b/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="gabriele-lo-cascio">
+                    <img src="assets/img/organizers/gabriele.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Gabriele Lo Cascio</h4>
+                    <p class="text-muted">B.Sc. student in Innovation Engineering @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/gabriele-lo-cascio-197609221/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/Gabro29" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.youtube.com/@ga8r0" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="/contacts/" class="btn btn-xl">Contact us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <style>
+    /* Style the container */
+    .venue-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 1000px;
+        /* Increase the max-width as needed */
+        margin: 0 auto;
+    }
+
+    /* Style the map widget */
+    .venue-map {
+        text-align: left;
+        /* Align the map widget to the left */
+        width: 90%;
+        /* Increase the width as needed */
+        height: 600px;
+        /* Increase the height as needed */
+        margin-bottom: 20px;
+    }
+
+    /* Style the text in between */
+    .venue-text {
+        font-size: 16px;
+        text-align: center;
+        /* Align the text to the center */
+        margin-bottom: 20px;
+    }
+</style>
+
+<!-- Venue -->
+<section id="venue">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Venue</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="venue-container">
+                    <p class="venue-text">
+                        Università degli Studi di Palermo,<br>
+                        Dipartimento di Fisica e Chimica "Emilio Segrè",<br>
+                        <i>via Archirafi, 36 (classroom A)</i>,<br>
+                        Palermo (Italy)
+                    </p>
+                    <p class="venue-text">
+                        The event will be held in <b>hybrid mode</b>. Further information on remote participation will
+                        be given after registration.<br><em>We strongly encourage in-person attendance for a more exciting
+                        experience and greater networking opportunities!</em>
+                    </p>
+                    <div class="venue-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.2858770459243!2d13.373395!3d38.1102831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e591799701f1%3A0xfd5503c8c4b89d3d!2sVia%20Archirafi%20subcampus.%2C%20Via%20Archirafi%2C%2036%2C%2090123%20Palermo%20PA!5e0!3m2!1sen!2sit!4v1699356608955!5m2!1sen!2sit"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- Poster section -->
+
+<style>
+    /* Custom CSS for horizontal centering of the modal */
+    .modal-centered {
+        text-align: center;
+    }
+
+    .modal-centered:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+        /* Adjusts for spacing */
+    }
+
+    .modal-dialog-centered {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    /* Custom CSS to center the image inside the modal */
+    .modal-body img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    figcaption {
+        text-align: center;
+        background-color: black;
+        -webkit-text-size-adjust: 100%;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 7px 0;
+        font-size: 12px;
+        line-height: 1.2;
+        box-sizing: border-box;
+    }
+
+    .poster-button {
+        text-transform: none;
+        font-weight: 400;
+        background-color: black;
+        border: none;
+        border-radius: unset;
+        font-size: small;
+    }
+</style>
+
+
+<!-- Poster section -->
+<section id="poster" class="bg-light-gray">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Poster</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" style="text-align: center;">
+
+                <figure class="img-shadow" style="width: 232px; display: inline-block;">
+                    <a href="#" data-toggle="modal" data-target="#posterModal">
+                        <img src="/assets/img/poster/poster_web_h1200.jpg" alt="poster" width="232" height="325"
+                            class="img-responsive" style="display: inline-block;">
+                        <!--<figcaption>Poster (🔎)</figcaption>-->
+                    </a>
+                    <div class="btn btn-block btn-sm btn-primary poster-button open-modal-btn" data-toggle="modal"
+                        data-target="#posterModal">Poster 🔎</div>
+                </figure>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="posterModal" tabindex="-1" role="dialog" aria-labelledby="posterModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body modal-centered">
+                                <img src="/assets/img/poster/poster_web_h1200.jpg" alt="Enlarged Image"
+                                    class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+    <style>
+    .modal-dialog.modal-dialog-gallery {
+        max-width: 900px;
+    }
+
+    .modal-gallery .modal-content {
+        margin: auto;
+    }
+
+    .modal-gallery.modal {
+        align-items: center;
+        justify-content: center;
+        transform: translate(0%, 5%);
+    }
+
+    .modal-gallery p.text-modal-caption {
+        text-align: center;
+        color: black;
+    }
+
+    .gallery.col-xs-6 {
+        /*width: 50%;*/
+        height: 33.33333333% !important;
+    }
+
+    @media (min-width: 768px) {
+        .gallery.col-sm-4 {
+            /*width: 33.33333333%;*/
+            height: 22.22222222% !important;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .gallery.col-md-4 {
+            /*width: 33.33333333%;*/
+            height: 22.22222222% !important;
+        }
+    }
+</style>
+
+<style>
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grid>[class*='col-'] {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .product-tile-inner {
+        position: relative;
+    }
+
+    .product-tile-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-tile-inner .btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        opacity: .85;
+        overflow-x: hidden;
+    }
+
+    .gallery-button {
+        text-transform: none;
+        font-weight: 400;
+        background-color: #0000007d;
+        border: none;
+        font-size: small;
+    }
+
+    img.gallery-pic:hover {
+        cursor: pointer;
+    }
+</style>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Gallery</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="grid">
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The participants during the theoretical lecture of prof. Gioacchino Massimo Palma.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6798.jpg" src="assets/img/gallery/lr/DSC_6798.jpg"
+                        alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The organizing committee and some of the speakers. We truly thank the professors for their scientific contribution. We want to thank the Department of Physics and Chemistry &quot;Emilio Segrè&quot;, in the person of its Director, professor Palma, for hosting and making the event possible.From left to right: Alessandro Catalano, Mauro Paternostro, Alberto Miserendino, Gioacchino Massimo Palma, Gabriele Lo Cascio. ">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6931_rit.jpg" src="assets/img/gallery/lr/DSC_6931_rit.jpg"
+                        alt="Organizers, some speakers">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Organizers, some speakers 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Detail of the monitor of one of the participants during a practical session of quantum programming with Qiskit.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6895.jpg" src="assets/img/gallery/lr/DSC_6895.jpg"
+                        alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="One of the two groups of participants during the hands-on session.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/1701374883630.jpg" src="assets/img/gallery/lr/1701374883630.jpg"
+                        alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Article published by the newspaper &lt;a href=&quot;https://gds.it/&quot; target=&quot;blank&quot;&gt;Giornale di Sicilia&lt;/a&gt; on 5 December 2023. We thank the GdS editorial team!">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/20231205_article_gds.jpg" src="assets/img/gallery/lr/20231205_article_gds.jpg"
+                        alt="Newspaper article on GdS">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Newspaper article on GdS 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Detail of the notes of one of the participants during a theoretical session.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6854_rit.jpg" src="assets/img/gallery/lr/DSC_6854_rit.jpg"
+                        alt="Student's notes">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Student's notes 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The participants during a theoretical lecture.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6819.jpg" src="assets/img/gallery/lr/DSC_6819.jpg"
+                        alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="The organizing committee and prof. Grazia Cottone. We sincerely thank the professor for her great collaboration and support during the preparation and carrying out of the event. From left to right: Alessandro Catalano, Alberto Miserendino, Grazia Cottone, Gabriele Lo Cascio.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6933_rit.jpg" src="assets/img/gallery/lr/DSC_6933_rit.jpg"
+                        alt="Organizers, prof. G. Cottone">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Organizers, prof. G. Cottone 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Lecture of prof. Mauro Paternostro about the advantage of a quantum approach in Game Theory.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6921.jpg" src="assets/img/gallery/lr/DSC_6921.jpg"
+                        alt="Quantum games">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Quantum games 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Dr. Luca Innocenti explaining the Groover&#39;s algorithm.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6904.jpg" src="assets/img/gallery/lr/DSC_6904.jpg"
+                        alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <div class="product-tile-inner" data-caption="Talk of Dr. Simone Gasperini about the package Qiskit-Symb.">
+                    <img class="gallery-pic open-modal-btn" data-src="assets/img/gallery/DSC_6910.jpg" src="assets/img/gallery/lr/DSC_6910.jpg"
+                        alt="Some moments">
+                    <div class="btn btn-block btn-sm btn-primary gallery-button open-modal-btn" data-toggle="modal"
+                        data-target="#gallery-modal">Some moments 🔎</div>
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="col-lg-12" style="text-align: center;">
+            <!-- Modal -->
+            <div class="modal modal-gallery fade" id="gallery-modal" tabindex="-1" role="dialog"
+                aria-labelledby="gallery-modal-label" aria-hidden="true">
+                <div class="modal-dialog  modal-lg modal-md modal-dialog-gallery modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body modal-centered">
+                            <img class="img-responsive" src="" alt="zoomed img">
+                            <p class="text-modal-caption"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var galleryModal = document.getElementById('gallery-modal');
+
+            document.addEventListener('DOMContentLoaded', function () {
+                // Attach click event to buttons with class 'open-modal-btn' within a '.gallery'
+                var buttons = document.querySelectorAll('.gallery-button.open-modal-btn');
+
+                var images = document.querySelectorAll('.gallery-pic.open-modal-btn');
+
+                // Add click event listener to each button
+                [...buttons, ...images].forEach(function (button) {
+                    button.addEventListener('click', function (event) {
+                        // Check if the clicked element has the class 'open-modal-btn'
+                        //if (event.target.classList.contains('open-modal-btn')) {
+
+                        // Retrieve the src attribute
+                        var elemTarget = event.target.closest(".product-tile-inner")
+
+                        var imgSrc = elemTarget.querySelector('img').getAttribute("data-src");
+
+                        var caption = elemTarget.getAttribute("data-caption");
+
+                        // Modify the src attribute of the modal image
+                        galleryModal.querySelector('img').setAttribute('src', imgSrc);
+
+                        galleryModal.querySelector('p.text-modal-caption').innerHTML = caption.replace(/&quot;/g, '"'); // =YAML.parse(caption);
+
+                        // Show the modal using the dynamically constructed data-target
+                        galleryModal.style.display = 'block';
+
+                        //remove class fade
+                        galleryModal.classList.remove('fade');
+                        //}
+                    });
+                });
+
+            });
+
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == galleryModal) {
+                    galleryModal.style.display = "none";
+
+                    //add class fade
+                    galleryModal.classList.add('fade');
+                }
+            }
+
+
+        </script>
+
+    </div>
+</section>
+    <!-- Collaborators Section -->
+<section id="collaborators" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Collaborators</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+         <!-- Set the number of collaborators to process each step -->
+         <!-- Get the total number of collaborators -->
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="giovanni-la-tona">
+                    <img src="assets/img/collaborators/giovanni.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Giovanni La Tona</h4>
+                    <p class="text-muted">Illustrator and comic book artist</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/giovanni-la-tona/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.instagram.com/noxil_art/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="roberto-battaglia">
+                    <img src="assets/img/collaborators/roberto.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Roberto Battaglia</h4>
+                    <p class="text-muted">Software engineer @ Monese<br>B.Sc. in Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/robertobatts/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/robertobatts" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="grazia-cottone">
+                    <img src="assets/img/collaborators/cottone.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Grazia Cottone</h4>
+                    <p class="text-muted">Associate Professor of Applied Physics @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.unipa.it/persone/docenti/c/grazia.cottone" target="_blank">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/grazia-cottone-85ab89264" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/G-Cottone" target="_blank">
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="enrico-di-benedetto">
+                    <img src="assets/img/collaborators/di_benedetto.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Enrico Di Benedetto</h4>
+                    <p class="text-muted">(volunteer)<br>PhD student in Quantum Optics and Waveguide QED @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/enrico-di-benedetto-6775b0107" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/Enrico_Di_Benedetto2" target="_blank">
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="team-member" id="alessandro-romancino">
+                    <img src="assets/img/collaborators/romancino.jpg" class="img-responsive img-circle" alt="">
+                    <h4>Alessandro Romancino</h4>
+                    <p class="text-muted">(volunteer)<br>PhD student in Quantum Information @ Università degli Studi di Palermo</p>
+                    <ul class="list-inline social-buttons">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/alessandro-romancino-8203431a2" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.researchgate.net/profile/Alessandro-Romancino-2" target="_blank">
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://github.com/alex180500" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+        <div class="row">
+            
+            
+            
+        </div>
+        
+    </div>
+</section>
+
+    <!-- Sponsors -->
+
+<style>
+/*https://stackoverflow.com/questions/10387740/five-equal-columns-in-twitter-bootstrap*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+</style>
+
+<section id="sponsors">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Sponsors</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-5ths col-xs-5ths" style="padding-top: 15px;padding-bottom: 15px;">
+                <a href="https://ai-sf.it" target="_blank">
+                    <img src="assets/img/logos/aisf_palermo_logo.png" class="img-responsive img-centered"
+                        alt="aisf_palermo_logo.png" style="max-height: 100px;">
+                </a>
+            </div>
+            
+            <div class="col-md-5ths col-xs-5ths" style="padding-top: 15px;padding-bottom: 15px;">
+                <a href="https://www.facebook.com/vivere.ateneo/" target="_blank">
+                    <img src="assets/img/logos/vivere_ateneo_white.png" class="img-responsive img-centered"
+                        alt="vivere_ateneo_white.png" style="max-height: 100px;">
+                </a>
+            </div>
+            
+            <div class="col-md-5ths col-xs-5ths" style="padding-top: 15px;padding-bottom: 15px;">
+                <a href="https://www.facebook.com/vivere.scienzemmffnn/" target="_blank">
+                    <img src="assets/img/logos/vivere_mmffnn_white.png" class="img-responsive img-centered"
+                        alt="vivere_mmffnn_white.png" style="max-height: 100px;">
+                </a>
+            </div>
+            
+            <div class="col-md-5ths col-xs-5ths" style="padding-top: 15px;padding-bottom: 15px;">
+                <a href="https://www.vivereingegneria.com/blog/" target="_blank">
+                    <img src="assets/img/logos/vivere_ingegneria__bk.png" class="img-responsive img-centered"
+                        alt="vivere_ingegneria__bk.png" style="max-height: 100px;">
+                </a>
+            </div>
+            
+            <div class="col-md-5ths col-xs-5ths" style="padding-top: 15px;padding-bottom: 15px;">
+                <a href="https://nexum-ai.com" target="_blank">
+                    <img src="assets/img/logos/nexum_logo_nobg.png" class="img-responsive img-centered"
+                        alt="nexum_logo_nobg.png" style="max-height: 100px;">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <!-- Posts section -->
+<style>
+  .truncate-text {
+    /*truncating long words with a hyphen and continuing them on a new line */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .article-newspaper {
+    font-weight: bold;
+  }
+</style>
+
+
+<section id="press">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Press</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+      <div class="row">
+        
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+          <a class="post-link" href="https://qiskit.org/events/fall-fest#:~:text=Universit%C3%A0%20degli%20Studi%20di%20Palermo" target="_blank">
+            <span class="article-newspaper">Qiskit community</span></a><br>
+          <b><i>"Qiskit Fall Fest 2023"</i></b><br>
+          <span class="post-date">Nov 1, 2023</span>
+
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+          <a class="post-link" href="https://qiskitfallfest23-unipa.github.io/assets/img/gallery/20231205_article_gds.jpg" target="_blank">
+            <span class="article-newspaper">Giornale di Sicilia</span></a><br>
+          <b><i>"Calcoli quantistici, talenti per IBM"</i></b><br>
+          <span class="post-date">Dec 5, 2023</span>
+
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+          <a class="post-link" href="https://www.palermotoday.it/eventi/qiskit-fall-fest-2023.html" target="_blank">
+            <span class="article-newspaper">Palermo Today</span></a><br>
+          <b><i>"Qiskit fall fest 2023: al via la nuova edizione a Palermo"</i></b><br>
+          <span class="post-date">Nov 20, 2023</span>
+
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+          <a class="post-link" href="https://palermopost.it/a-palermo-il-qiskit-fall-fest-2023/" target="_blank">
+            <span class="article-newspaper">Palermo Post</span></a><br>
+          <b><i>"A Palermo il Qiskit Fall Fest 2023"</i></b><br>
+          <span class="post-date">Nov 21, 2023</span>
+
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+        </div>
+        
+
+        <div class="col-md-3 col-sm-6" style="margin-top: 10px;">
+          <a class="post-link" href="https://www.unipa.it/Qiskit-Fall-Fest-2023-Palermo/" target="_blank">
+            <span class="article-newspaper">Università degli Studi di Palermo (UNIPA)</span></a><br>
+          <b><i>"Qiskit Fall Fest 2023 @Palermo"</i></b><br>
+          <span class="post-date">Nov 24, 2023</span>
+
+          <div class="truncate-text" style="text-align: justify; padding-top: 20px; word-break: break-word">
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+    <!--contacts.html-->
+</main>
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="copyright">Copyright &copy; Qiskit Fall Fest 2023 @ Palermo, Italy 2024 - All Rights
+                    Reserved</span>
+            </div>
+            <!--
+            <div class="col-md-8"></div>
+            <div class="col-md-4"></div>
+            -->
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-inline quicklinks">
+                    <li>
+                        <a href="/contacts/">Contacts</a>
+                    </li>
+                    <li>
+                        | <a href="/credits/">Credits</a>
+                    </li>
+                    <li>
+                        | <a href="/tos/">Terms and Conditions</a>
+                    </li>
+                    <li>
+                        | <!-- Privacy policy - iubenda -->
+                        <a href="https://www.iubenda.com/privacy-policy/60725282" title="Privacy Policy">Privacy
+                            Policy</a>
+                        <!-- END Privacy policy - iubenda -->
+                    </li>
+                    <li>
+                        | <!-- Cookie policy - iubenda -->
+                        <a href="https://www.iubenda.com/privacy-policy/60725282/cookie-policy"
+                            title="Cookie Policy">Cookie Policy</a>
+                        <script
+                            type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+                        <!-- END Cookie policy - iubenda -->
+                    </li>
+            </div>
+        </div>
+        
+        <div class="row" id="social">
+            <div class="col-md-12">
+                <ul class="list-inline social-buttons">
+                    
+                    <li><a href="https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io"><i class="fa-brands fa-github"></i></a></li>
+                    
+                    <li><a href="https://instagram.com/qiskit_fall_fest_23_palermo"><i class="fa-brands fa-instagram"></i></a></li>
+                    
+                    <li><a href="https://www.linkedin.com/in/qiskit-fall-fest-2023-palermo-italy"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+  <!--modals.html-->
+  <!-- jQuery Version 1.11.0 -->
+<script src=" /assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src=" /assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src=" /assets/js/jquery.easing.min.js"></script>
+<script src=" /assets/js/classie.js"></script>
+<script src=" /assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src=" /assets/js/jqBootstrapValidation.js"></script>
+<script src=" /assets/js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src=" /assets/js/agency.js"></script>
+
+
+<script>
+   // Find all img and svg elements on the page
+   const imgElements = document.querySelectorAll('img');
+   const svgElements = document.querySelectorAll('svg');
+
+   // Add the oncontextmenu attribute to disable the context menu
+   imgElements.forEach((img) => {
+      img.setAttribute('oncontextmenu', 'return false;');
+   });
+
+   svgElements.forEach((svg) => {
+      svg.setAttribute('oncontextmenu', 'return false;');
+   });
+</script>
+
+</body>
+
+</html>
